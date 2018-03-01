@@ -1,0 +1,205 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+     background-image: url(/images/background.png)
+}
+
+header {
+    background-color: white; }
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+main a {
+    color: #ad2929;
+}
+
+
+a:focus h2, a:hover h2 {
+   color: #6d1111;
+   border-bottom: 1px solid #6d1111; 
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.menu1 {
+    background-color: #000;
+    margin-bottom: 40px;
+}
+
+.menu {
+    background-color: #000;
+    font-size: 0.8em
+}
+
+.menu:first-of-type {
+    border-left: 1px solid #3e372e;
+}
+
+.menu_button {
+    background-color: #000;
+    border-right: 1px solid #3e372e;
+}
+
+.menu_button a {
+    color: aliceblue;
+    font-size: 1.3em;
+    padding: 20px;
+}
+
+
+.menu_button:hover {
+    background-color: #2d2b2b;
+}
+
+.menu_button a:hover {
+    color: white;
+}
+
+img {
+    max-width: 100%;
+}
+
+.prepinani {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.posledni_projekty h2 {
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+
+.prepinani2 {
+    margin-bottom: 40px;
+    clear: both;
+    text-align: center;
+}
+
+.ramecek {
+  background-color: white;
+  padding: 16px;
+  border: 1px solid #d6d2d2;
+    
+}
+
+.prostory {
+    margin-bottom: 40px;
+}
+
+.prostory h2{
+    text-align: center;
+    border-bottom: 1px solid white;
+
+}
+
+.prostory img {
+    margin-bottom: 20px;
+}
+
+.fengshui {
+    margin-bottom: 40px;
+}
+
+.fengshui_text {}
+
+.novinky {
+    clear: both;
+    border-bottom: 1px solid white;
+    
+}
+
+.novinky h2 {
+    border-bottom: 1px solid white;
+}
+
+.novinky_text {
+    margin-bottom: 40px;
+
+}
+
+.obrazek_novinky {}
+
+
+
+footer {
+    background-color: #886239;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+
+.pata {
+    float: left;
+}
+
+.kontakt {
+    color: white;
+}
+
+.kontakt h2 {
+    margin-bottom: 0px;
+}
+
+.kontaktinfo {
+    border-right: 1.5px solid #302013;
+}
+
+.moto {
+    padding-top: 20px;
+}
+
+.socialsites {}
+
+.socialsites a {
+    float: left;
+
+}
+
+.socialsites img {
+    max-width: 3.25rem;
+    padding: 3px;
+
+}
+
+.socialsites img:hover {
+    transform: scale(1.1);
+}
+
+.facebook,
+.skype,
+.email,
+.pinterest,
+.darek {
+    padding: 5px;
+    fill: white;
+
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
