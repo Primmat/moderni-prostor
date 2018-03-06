@@ -1,34 +1,38 @@
-
 body {
     font-family: 'Montserrat', sans-serif;
     color: #333;
-     /* background-image: url(/images/background.png) */
+    /* background-image: url(/images/background.png) */
     background-color: #fff9e7;
 }
 
 header {
-    background-color: white; }
-
- .logo {
-    float: left;
-     width: 25%;
-     background-color: #000;
-     padding-top: 15px;
-     padding-bottom: 15px;
+    background-color: white;
 }
+
+.logo {
+    float: left;
+    width: 25%;
+    background-color: #000;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
 .expanded {
     background-color: black;
-}   
+}
+
 main a h2 {
     color: #eeb111;
 }
 
 .kameny {
-background-image: url(/images/kameny_pozadi.jpg)
+    background-image: url(/images/kameny_pozadi.jpg)
 }
-a:focus h2, a:hover h2 {
-   color: #eeb111;
-   border-bottom: 1px solid #eeb111; 
+
+a:focus h2,
+a:hover h2 {
+    color: #eeb111;
+    border-bottom: 1px solid #eeb111;
 }
 
 h1,
@@ -93,17 +97,17 @@ img {
 }
 
 .ramecek {
-  background-color: white;
-  padding: 16px;
-  border: 1px solid #d6d2d2;
-    
+    background-color: white;
+    padding: 16px;
+    border: 1px solid #d6d2d2;
+
 }
 
 .prostory {
     margin-bottom: 40px;
 }
 
-.prostory h2{
+.prostory h2 {
     text-align: center;
     border-bottom: 1px solid white;
 
@@ -122,7 +126,7 @@ img {
 .novinky {
     clear: both;
     border-bottom: 1px solid white;
-    
+
 }
 
 .novinky h2 {
@@ -140,7 +144,7 @@ img {
 
 footer {
     background-color: #ffbf00;
-     color: #663300;
+    color: #663300;
     padding: 20px;
     margin-top: 40px;
 }
@@ -150,9 +154,7 @@ footer {
     float: left;
 }
 
-.kontakt {
-    
-}
+.kontakt {}
 
 .kontakt h2 {
     margin-bottom: 0px;
@@ -193,8 +195,10 @@ footer {
 
 .cf:before,
 .cf:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */
 }
 
 .cf:after {
@@ -204,4 +208,3 @@ footer {
 .cf {
     *zoom: 1;
 }
-
