@@ -180,7 +180,24 @@ img {
 
 .obrazek_novinky {}
 
+.novinka1 {
+    max-width: 30%;
+}
 
+.novinkadiv {
+    text-align:center;
+    margin-top: 30px;
+}
+
+.test1 {
+    text-align: center;
+    margin-left:20%;
+    margin-right:20%;
+    color: black;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 30px;
+}
 
 footer {
     background-color: #ffbf00;
