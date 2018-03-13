@@ -95,27 +95,37 @@ img {
     text-align-last: center;
     padding-top: 200px;
     font-family: 'Francois One', sans-serif;
+    
 
 }
 
 .hero_uvod p {
     font-size: 2.5em;
     color: #000;
+    background: rgba(255, 215, 0, 0.5);
+    display: inline-block;
+    padding: 10px;
 }
 
 .hero_uvod h1 {
     font-family: 'Francois One', sans-serif;
-    color: #eeb111;
+    color: #000;
+    background: rgba(255, 215, 0, 0.5);
+    margin-bottom: 0;
+    display: inline-block;
+    margin-left: 300px;
+    margin-bottom: 10px;
+    padding: 10px;
 }
 
 .hero_text {
-    height: 240px;
+    height: 280px;
     width: 100%;
     background-color: black;
     background-size: cover;
     text-align: center;
     color: #eeb111;
-    padding-top: 40px;
+    padding-top: 60px;
 }
 
 .hero_text p {
@@ -124,13 +134,6 @@ img {
     margin: 0;
 }
 
-.hero2 {
-    height: 300px;
-    width: 100%;
-    background: url(/images/kameny_pozadi.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
 .hero3 {
     height: 450px;
@@ -159,49 +162,6 @@ img {
 }
 /*      */
 
-.prepinani {
-    text-align: center;
-    margin-bottom: 40px;
-    margin-top: 15px;
-}
-
-.posledni_projekty h2 {
-    text-align: center;
-    border-bottom: 1px solid white;
-}
-
-.prepinani2 {
-    margin-bottom: 40px;
-    clear: both;
-    text-align: center;
-}
-
-.ramecek {
-    background-color: white;
-    padding: 16px;
-    border: 1px solid #d6d2d2;
-
-}
-
-.prostory {
-    margin-bottom: 40px;
-}
-
-.prostory h2 {
-    text-align: center;
-    border-bottom: 1px solid white;
-
-}
-
-.prostory img {
-    margin-bottom: 20px;
-}
-
-.fengshui {
-    margin-bottom: 40px;
-}
-
-.fengshui_text {}
 
 .novinky {
     clear: both;
