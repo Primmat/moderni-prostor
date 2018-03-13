@@ -9,7 +9,6 @@ header {
     background-color: white;
 }
 
-
 .logo {
     float: left;
     width: 25%;
@@ -61,8 +60,6 @@ main a h2 {
     padding-top: 15px;
 }
 
-
-
 .menu_button {
     background-color: #000;
 }
@@ -81,6 +78,7 @@ img {
     max-width: 100%;
 }
 
+
 /* HERO */
 
 .hero {
@@ -95,8 +93,6 @@ img {
     text-align-last: center;
     padding-top: 200px;
     font-family: 'Francois One', sans-serif;
-    
-
 }
 
 .hero_uvod p {
@@ -134,7 +130,6 @@ img {
     margin: 0;
 }
 
-
 .hero3 {
     height: 500px;
     width: 100%;
@@ -156,17 +151,17 @@ img {
 }
 
 .hero3 a:focus h2,
-        a:hover h2 {
+a:hover h2 {
     color: #fff;
     border-bottom: 1px solid #fff;
 }
-/*      */
 
+
+/*      */
 
 .novinky {
     clear: both;
     border-bottom: 1px solid white;
-
 }
 
 .novinky h2 {
@@ -175,21 +170,17 @@ img {
 
 .novinky_text {
     margin-bottom: 40px;
-
 }
 
 .obrazek_novinky {}
 
 .novinka1 {
-}
-
-.novinkadiv {
-    text-align:center;
-    margin-top: 30px;
+    max-width: 30%;
+    margin-left: 200px;
 }
 
 .test1 {
-
+    
 }
 
 footer {
@@ -198,7 +189,6 @@ footer {
     padding: 20px;
     margin-top: 40px;
 }
-
 
 .pata {
     float: left;
@@ -211,22 +201,18 @@ footer {
     color: white;
 }
 
-
 .moto {
     padding-top: 20px;
     text-align: right;
 }
 
-
 .socialsites a {
     float: right;
-
 }
 
 .socialsites img {
     max-width: 3.25rem;
     padding: 3px;
-
 }
 
 .socialsites img:hover {
@@ -240,7 +226,6 @@ footer {
 .darek {
     padding: 5px;
     fill: white;
-
 }
 
 .cf:before,
