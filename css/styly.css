@@ -95,7 +95,7 @@ img {
     text-align-last: center;
     padding-top: 200px;
     font-family: 'Francois One', sans-serif;
-    
+
 
 }
 
@@ -156,47 +156,64 @@ img {
 }
 
 .hero3 a:focus h2,
-        a:hover h2 {
+a:hover h2 {
     color: #fff;
     border-bottom: 1px solid #fff;
 }
-/*      */
 
+/*      */
 
 .novinky {
     clear: both;
-    border-bottom: 1px solid white;
+    padding-top: 20px;
+    padding-bottom: 20px;
 
 }
 
-.novinky h2 {
-    border-bottom: 1px solid white;
+.novinky_text a h3 {
+    border-bottom: 1px solid #e3a704;
+    text-align: center;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.novinky_text a:focus h3,
+              a:hover h3 {
+    color: #fff;
+    border-bottom: 1px solid #fff;
 }
 
 .novinky_text {
-    margin-bottom: 40px;
-
+    padding-top: 40px;
+    color: #000;
 }
 
-.obrazek_novinky {}
-
-.novinka1 {
+.novinky_text a h2 {
+    padding-top: 40px;
 }
 
-.novinkadiv {
-    text-align:center;
-    margin-top: 30px;
+.novinky_img {
+    padding: 5px;
+    border: 1px solid #000;
+    background-color: #000;
 }
 
-.test1 {
-
+.novinky_pozadi {
+    background-color: #e3a704;
 }
+
+.hero4 {
+    height: 250px;
+    width: 100%;
+    background-color: black;
+    background-size: cover; 
+}
+
 
 footer {
     background-color: #ffbf00;
     color: #663300;
     padding: 20px;
-    margin-top: 40px;
 }
 
 
