@@ -159,7 +159,40 @@ a:hover h2 {
 
 /*      */
 
+.soukrome {
+    background: url(/images/soukromy1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
 
+.komercni {
+    background: url(/images/komercni1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.soukrome a h2, .komercni a h2 {
+    color: #000;
+    background: rgba(255, 215, 0, 0.5);
+    padding-bottom: 10px;
+    
+}
+
+.komercni a:focus h2,
+.komercni a:hover h2 {
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.soukrome a:focus h2,
+.soukrome a:hover h2 {
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.prostory_padding {
+margin: 170px;
+}
 /*      */
 
 .novinky {
