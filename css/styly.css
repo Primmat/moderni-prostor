@@ -27,7 +27,7 @@ main a h2 {
 }
 
 .kameny {
-    background-image: url(/images/kameny_pozadi.jpg)
+    background-image: url(images/kameny_pozadi.jpg)
 }
 
 a:focus h2,
@@ -84,7 +84,7 @@ img {
 .hero {
     height: 600px;
     width: 100%;
-    background: url(/images/slider_pozadi.jpg);
+    background: url(images/slider_pozadi.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -160,13 +160,13 @@ a:hover h2 {
 /*      */
 
 .soukrome {
-    background: url(/images/soukromy1.jpg);
+    background: url(images/soukromy1.jpg);
     background-repeat: no-repeat;
     background-size: cover; 
 }
 
 .komercni {
-    background: url(/images/komercni1.jpg);
+    background: url(images/komercni1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
