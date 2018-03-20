@@ -19,8 +19,8 @@ header {
 }
 
 .p-tb {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
 }
 
 .expanded {
@@ -132,12 +132,6 @@ img {
     margin: 0;
 }
 
-.hero3 {
-    height: 500px;
-    width: 100%;
-    background-color: #eeb111;
-}
-
 .hero3 h2 {
     text-align: center;
     color: black;
@@ -230,8 +224,8 @@ a:hover h3 {
 
 .novinky_img {
     padding: 5px;
-    border: 1px solid #000;
-    background-color: #000;
+    border: 1px solid #9c7407;
+    background-color: #9c7407;
 }
 
 .novinky_pozadi {
