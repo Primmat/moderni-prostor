@@ -38,7 +38,6 @@ main a h2 {
 a:focus h2,
 a:hover h2 {
     color: #eeb111;
-    border-bottom: 1px solid #eeb111;
 }
 
 h1,
@@ -140,7 +139,6 @@ img {
 .hero3 h2 {
     text-align: center;
     color: black;
-    border-bottom: 1px solid #eeb111;
     padding-top: 20px;
 }
 
@@ -153,7 +151,6 @@ img {
 .hero3 a:focus h2,
 a:hover h2 {
     color: #fff;
-    border-bottom: 1px solid #fff;
 }
 
 /*      */
@@ -163,6 +160,40 @@ a:hover h2 {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.soukrome {
+    /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
+    filter: gray;
+    /* IE5+ */
+    -webkit-filter: grayscale(1);
+    /* Webkit Nightlies & Chrome Canary */
+    -webkit-transition: all .1s ease-in-out;
+}
+
+.soukrome:hover {
+    filter: none;
+    -webkit-filter: grayscale(0);
+    -webkit-transform: scale(1.01);
+}
+
+
+
+.komercni {
+    /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
+    filter: gray;
+    /* IE5+ */
+    -webkit-filter: grayscale(1);
+    /* Webkit Nightlies & Chrome Canary */
+    -webkit-transition: all .1s ease-in-out;
+}
+
+.komercni:hover {
+    filter: none;
+    -webkit-filter: grayscale(0);
+    -webkit-transform: scale(1.01);
+}
+
+
 
 .komercni {
     background: url(../images/komercni1.jpg);
@@ -180,13 +211,11 @@ a:hover h2 {
 .komercni a:focus h2,
 .komercni a:hover h2 {
     color: #fff;
-    border-bottom: 1px solid #fff;
 }
 
 .soukrome a:focus h2,
 .soukrome a:hover h2 {
     color: #fff;
-    border-bottom: 1px solid #fff;
 }
 
 .prostory_padding {
@@ -209,7 +238,6 @@ a:hover h2 {
 .novinky_text a:focus h3,
 a:hover h3 {
     color: #fff;
-    border-bottom: 1px solid #fff;
 }
 
 .novinky_text {
@@ -234,6 +262,8 @@ a:hover h3 {
 .novinky_pozadi {
     background-color: #e3a704;
 }
+
+
 
 .topodsazeni {
     padding-top: 20px;
