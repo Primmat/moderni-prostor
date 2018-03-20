@@ -162,7 +162,7 @@ a:hover h2 {
 .soukrome {
     background: url(../images/soukromy1.jpg);
     background-repeat: no-repeat;
-    background-size: cover; 
+    background-size: cover;
 }
 
 .komercni {
@@ -171,11 +171,11 @@ a:hover h2 {
     background-size: cover;
 }
 
-.soukrome a h2, .komercni a h2 {
+.soukrome a h2,
+.komercni a h2 {
     color: #000;
     background: rgba(255, 215, 0, 0.5);
     padding-bottom: 10px;
-    
 }
 
 .komercni a:focus h2,
@@ -191,8 +191,10 @@ a:hover h2 {
 }
 
 .prostory_padding {
-margin: 170px;
+    margin: 170px;
 }
+
+
 /*      */
 
 .novinky {
@@ -237,20 +239,13 @@ a:hover h3 {
     background-color: #e3a704;
 }
 
-.hero4 {
-    padding-top: 15px;
-    height: 650px;
-    width: 100%;
-    background-color: black;
-    background-size: cover;
+.topodsazeni {
+    padding-top: 20px;
+    background-color: #000;
 }
 
-.fotoh2 {
-    text-align: center;
-    color: white;
-    padding-top: 40px;
-    margin-bottom: 40px;
-    border-bottom: 1px solid #000;
+.bottomodsazeni {
+    
 }
 
 .galerie {
@@ -267,7 +262,9 @@ footer {
     float: left;
 }
 
-.kontakt {}
+.kontakt {
+    
+}
 
 .kontakt h2 {
     margin-bottom: 0px;
