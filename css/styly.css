@@ -18,6 +18,11 @@ header {
     box-sizing: border-box;
 }
 
+.p-tb {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
 .expanded {
     background-color: black;
 }
@@ -99,8 +104,7 @@ img {
     font-size: 2.5em;
     color: #000;
     background: rgba(255, 215, 0, 0.5);
-    display: inline-block;
-    padding: 10px;
+    line-height: 4rem;
     text-align: center;
 }
 
@@ -109,9 +113,8 @@ img {
     color: #000;
     background: rgba(238, 177, 17, 1);
     margin-bottom: 0;
-    display: inline-block;
     margin-bottom: 10px;
-    padding: 10px;
+    line-height: 3.5rem;
 }
 
 .hero_text {
@@ -121,7 +124,6 @@ img {
     background-size: cover;
     text-align: center;
     color: #eeb111;
-    padding-top: 60px;
 }
 
 .hero_text p {
@@ -134,7 +136,6 @@ img {
     height: 500px;
     width: 100%;
     background-color: #eeb111;
-    padding-top: 40px;
 }
 
 .hero3 h2 {
@@ -199,8 +200,6 @@ a:hover h2 {
 
 .novinky {
     clear: both;
-    padding-top: 20px;
-    padding-bottom: 20px;
 }
 
 .novinky_text a h3 {
