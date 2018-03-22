@@ -153,12 +153,8 @@ a:hover h2 {
     color: #fff;
 }
 
-/*      */
-
-.soukrome {
-    background: url(../images/soukromy1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+.efekt {
+    overflow: hidden;
 }
 
 .soukrome {
@@ -168,6 +164,10 @@ a:hover h2 {
     -webkit-filter: grayscale(1);
     /* Webkit Nightlies & Chrome Canary */
     -webkit-transition: all .1s ease-in-out;
+    /* styly */
+    background: url(../images/soukromy1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .soukrome:hover {
@@ -185,6 +185,10 @@ a:hover h2 {
     -webkit-filter: grayscale(1);
     /* Webkit Nightlies & Chrome Canary */
     -webkit-transition: all .1s ease-in-out;
+    /* styly */
+    background: url(../images/komercni1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .komercni:hover {
@@ -193,13 +197,6 @@ a:hover h2 {
     -webkit-transform: scale(1.01);
 }
 
-
-
-.komercni {
-    background: url(../images/komercni1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
 .soukrome a h2,
 .komercni a h2 {
