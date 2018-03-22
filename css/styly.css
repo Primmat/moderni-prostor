@@ -82,6 +82,7 @@ img {
     max-width: 100%;
 }
 
+
 /* HERO */
 
 .hero {
@@ -94,7 +95,6 @@ img {
 .hero_uvod {
     text-align-last: center;
     font-family: 'Montserrat', sans-serif;
-
     padding-top: 10rem;
     padding-bottom: 10rem;
 }
@@ -106,7 +106,6 @@ img {
     text-align: center;
     padding: 0px 20px 10px 20px;
 }
-
 
 .hero_uvod h1 {
     font-family: 'Montserrat', sans-serif;
@@ -153,6 +152,7 @@ a:hover h2 {
     color: #fff;
 }
 
+
 /*      */
 
 .soukrome {
@@ -176,8 +176,6 @@ a:hover h2 {
     -webkit-transform: scale(1.01);
 }
 
-
-
 .komercni {
     /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
     filter: gray;
@@ -192,8 +190,6 @@ a:hover h2 {
     -webkit-filter: grayscale(0);
     -webkit-transform: scale(1.01);
 }
-
-
 
 .komercni {
     background: url(../images/komercni1.jpg);
@@ -221,6 +217,7 @@ a:hover h2 {
 .prostory_padding {
     margin: 170px;
 }
+
 
 /*      */
 
@@ -262,8 +259,6 @@ a:hover h3 {
 .novinky_pozadi {
     background-color: #e3a704;
 }
-
-
 
 .topodsazeni {
     padding-top: 20px;
