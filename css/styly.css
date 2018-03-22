@@ -136,7 +136,7 @@ img {
     text-align: center;
 }
 
-.hlavni-tlacitka .efekt {
+.hlavni-tlacitka .obal {
     overflow: hidden;
 }
 
@@ -144,42 +144,36 @@ img {
     padding: 0;
 }
 
+.hlavni-tlacitka h2 {
+    margin: 0;
+}
+
 .hlavni-tlacitka a {
-    filter: gray;
-    -webkit-filter: grayscale(1);
+    display: block;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-color: gray;
+    background-blend-mode: luminosity;
 
     transition: all 0.3s;
 }
-
-
-
 
 .hlavni-tlacitka a:hover {
     -webkit-transform: scale(1.05, 1.05);
     transform: scale(1.05, 1.05);
     cursor: pointer;
 
-    filter: none;
-    -webkit-filter: grayscale(0);
+    background-blend-mode: normal;
 }
 
 .soukrome {
-    display: block;
     background: url(../images/soukromy1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .komercni {
-    display: block;
     background: url(../images/komercni1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.hlavni-tlacitka h2 {
-    margin: 0;
-    color: blue;
 }
 
 /*
