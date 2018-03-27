@@ -80,11 +80,8 @@ img {
 
 /* HERO */
 
-.hero {
-    width: 100%;
-    background: url(../images/slider_pozadi.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+.uvodni_obrazek {
+image
 }
 
 .hero_uvod {
@@ -150,7 +147,6 @@ img {
 
     transition: all 0.3s;
 }
-
 
 
 
