@@ -12,7 +12,6 @@ header {
 .logo {
     float: left;
     width: 25%;
-    background-color: #14110f;
     padding-top: 15px;
     padding-bottom: 15px;
     box-sizing: border-box;
@@ -23,9 +22,6 @@ header {
     padding-bottom: 6rem;
 }
 
-.expanded {
-    background-color: #14110f;
-}
 
 main a h2 {
     color: #eeb111;
@@ -60,9 +56,6 @@ h5 {
     padding-top: 15px;
 }
 
-.menu_button {
-    background-color: #14110f;
-}
 
 .menu_button a {
     color: white;
@@ -72,6 +65,10 @@ h5 {
 
 .menu_button a:hover {
     color: #eeb111;
+}
+
+.menu_pozadi {
+  background-color: #14110f;
 }
 
 img {
