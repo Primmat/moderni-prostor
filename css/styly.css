@@ -150,13 +150,10 @@ img {
 
 .hlavni-tlacitka a {
     display: block;
-
     background-repeat: no-repeat;
     background-size: cover;
-
     background-color: gray;
     background-blend-mode: luminosity;
-
     transition: all 0.3s;
 }
 
@@ -164,7 +161,6 @@ img {
     -webkit-transform: scale(1.05, 1.05);
     transform: scale(1.05, 1.05);
     cursor: pointer;
-
     background-blend-mode: normal;
 }
 
@@ -213,22 +209,14 @@ img {
 }
 
 .novinky_text a h3 {
-    border-bottom: 1px solid #e3a704;
-    text-align: center;
-    color: #000;
-    margin-bottom: 10px;
-}
-
-.novinky_text a:focus h3,
-a:hover h3 {
-    color: #fff;
+    border-bottom: 1px solid #eadfc9;
+    color: #574b42;
+    margin-bottom: 12px;
+    padding-bottom: 10px;
 }
 
 .novinky_text {
     margin-bottom: 40px;
-}
-
-.novinky_text {
     padding-top: 40px;
     color: #000;
 }
@@ -239,12 +227,12 @@ a:hover h3 {
 
 .novinky_img {
     padding: 5px;
-    border: 1px solid #9c7407;
-    background-color: #9c7407;
+    border: 1px solid #eadfc9;
+    background-color: #eadfc9;
 }
 
 .novinky_pozadi {
-    background-color: #e3a704;
+    background-color: #f5ebd9;
 }
 
 .topodsazeni {
@@ -256,9 +244,13 @@ a:hover h3 {
     padding: 0;
 }
 
+img .column .galerie {
+    padding: 0;
+}
+
 footer {
-    background-color: #ffbf00;
-    color: #663300;
+    background-color: #14110f;
+    color: #988d74;
     padding: 20px;
 }
 
