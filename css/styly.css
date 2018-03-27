@@ -21,8 +21,9 @@ body {
 
 
 main a h2 {
-    color: #eeb111;
+    color: #fff;
 }
+
 
 .kameny {
     background-image: url(../images/kameny_pozadi.jpg)
@@ -30,7 +31,7 @@ main a h2 {
 
 a:focus h2,
 a:hover h2 {
-    color: #eeb111;
+    color: #fff;
 }
 
 h1,
@@ -40,6 +41,8 @@ h4,
 h5 {
     font-family: 'Montserrat', sans-serif;
 }
+
+
 
 .menu1 {
     margin-bottom: 40px;
