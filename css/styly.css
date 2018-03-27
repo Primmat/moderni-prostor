@@ -12,7 +12,7 @@ header {
 .logo {
     float: left;
     width: 25%;
-    background-color: #000;
+    background-color: #14110f;
     padding-top: 15px;
     padding-bottom: 15px;
     box-sizing: border-box;
@@ -24,7 +24,7 @@ header {
 }
 
 .expanded {
-    background-color: black;
+    background-color: #14110f;
 }
 
 main a h2 {
@@ -49,19 +49,19 @@ h5 {
 }
 
 .menu1 {
-    background-color: #000;
+    background-color: #14110f;
     margin-bottom: 40px;
 }
 
 .menu {
-    background-color: #000;
+    background-color: #14110f;
     font-size: 0.8em;
     float: right;
     padding-top: 15px;
 }
 
 .menu_button {
-    background-color: #000;
+    background-color: #14110f;
 }
 
 .menu_button a {
@@ -238,7 +238,7 @@ img {
 
 .topodsazeni {
     padding-top: 20px;
-    background-color: #000;
+    background-color: #14110f;
 }
 
 .galerie {
