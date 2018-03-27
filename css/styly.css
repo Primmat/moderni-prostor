@@ -115,7 +115,11 @@ img {
 }
 
 .hero2 {
-    background-color: black;
+    background-color: #ab9570;
+}
+
+.hero2 h2 {
+    color: #413a29;
 }
 
 .hero_text {
