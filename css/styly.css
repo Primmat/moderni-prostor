@@ -5,9 +5,6 @@ body {
     background-color: #fff9e7;
 }
 
-header {
-    background-color: white;
-}
 
 .logo {
     float: left;
@@ -45,12 +42,10 @@ h5 {
 }
 
 .menu1 {
-    background-color: #14110f;
     margin-bottom: 40px;
 }
 
 .menu {
-    background-color: #14110f;
     font-size: 0.8em;
     float: right;
     padding-top: 15px;
