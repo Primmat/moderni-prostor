@@ -81,6 +81,11 @@ img {
 /* HERO */
 
 .uvodni_obrazek {
+    width: 100%;
+    background: url(../images/slider_pozadi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 40%; /* 16:9 Aspect Ratio */
 }
 
 .hero_uvod {
