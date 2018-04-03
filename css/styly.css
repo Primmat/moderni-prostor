@@ -263,8 +263,11 @@ footer {
     color: white;
 }
 
-.moto {
+.kontakt p {
     padding-top: 20px;
+}
+
+.moto {
     text-align: right;
 }
 
@@ -274,7 +277,8 @@ footer {
 
 .socialsites img {
     max-width: 3.25rem;
-    padding: 3px;
+    padding: 6px;
+    padding-top: 20px;
 }
 
 .socialsites img:hover {
