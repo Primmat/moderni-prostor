@@ -316,13 +316,23 @@ footer {
 
 /* STYLY NA SLUŽBY */
 
+table {
+    border: none;
+}
 
+td {
+ background-color: #fff9e7;
+ border-bottom: 1px solid #c4bfbf;
+ padding: 20px;
+}
 
+.posledni_v_tabulce td {
+    border: none;
+}
 
-
-
-
-
+.li_padding li {
+    padding: 5px;
+}
 
 
 
