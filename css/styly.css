@@ -315,9 +315,8 @@ footer {
 /* STYLY NA ÚVOD */
 
 /* STYLY NA SLUŽBY */
-.h1sluzby {
+.h1{
 	text-align: center;
-	padding: 20px;
 }
 
 table thead, table tbody, table tfoot {
@@ -337,7 +336,7 @@ tr {
 
 td {
  background-color: #fff9e7;
- border-bottom: 1px solid #c4bfbf;
+ border-bottom: 1px solid #333;
  padding: 20px;
 }
 
@@ -354,15 +353,22 @@ tbody tr:last-child td {
 }
 
 .kulaty {
-	border-radius: 70px;
+	border-radius: 3px;
+}
+
+.main {
+	padding-top: 80px;
+	padding-bottom: 80px;
 }
 
 
+.article {
+	padding-top: 80px;
+}
 
-
-
-
-
+.article:first-of-type {
+	padding-top: 0;
+}
 
 
 
