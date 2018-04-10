@@ -315,19 +315,30 @@ footer {
 /* STYLY NA ÚVOD */
 
 /* STYLY NA SLUŽBY */
+.h1sluzby {
+	text-align: center;
+	padding: 20px;
+}
+
+table thead, table tbody, table tfoot {
+    border: none;
+    background-color: #fefefe;
+}
+
 
 table {
     border: none;
+	
+}
+
+tr {
+	border: none;
 }
 
 td {
  background-color: #fff9e7;
  border-bottom: 1px solid #c4bfbf;
  padding: 20px;
-}
-
-.posledni_v_tabulce td {
-    border: none;
 }
 
 .li_padding li {
@@ -338,10 +349,13 @@ td {
     text-align: center;
 }
 
+tbody tr:last-child td {
+	border: none;
+}
 
-
-
-
+.kulaty {
+	border-radius: 70px;
+}
 
 
 
