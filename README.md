@@ -18,7 +18,7 @@ Webové stránky děláme v programu [Brackets](http://brackets.io/), ve kterém
 ## Odkazy
 
 - Naše střední škola <https://www.primmat.cz/>
-- Github našho učitele Pavla Tajduše <https://github.com/PavelTajdus/>
+- Github našeho učitele Pavla Tajduše <https://github.com/PavelTajdus/>
 
 ## Poděkování
 
