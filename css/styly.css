@@ -369,3 +369,18 @@ tbody tr:last-child td {
 .article:first-of-type {
 	padding-top: 0;
 }
+
+.odkaz_realizace {
+	text-align: center;
+	background-color: #ab9570;
+	margin: 0;
+	padding: 10px;
+}
+
+.odkaz_realizace a {
+	color: #333;
+}
+
+.odkaz_realizace a:hover {
+color: #eeb111;	
+}
