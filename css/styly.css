@@ -50,6 +50,8 @@ img {
 
 main a h2 {
     color: #fff;
+	padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .kameny {
@@ -311,7 +313,7 @@ footer {
 
 /* STYLY NA SLUŽBY */
 
-.h1 {
+.nadpis_titulka {
     text-align: center;
 }
 
@@ -352,10 +354,6 @@ tbody tr:last-child td {
     border-radius: 3px;
 }
 
-.main {
-    padding-top: 80px;
-    padding-bottom: 80px;
-}
 
 .article {
     padding-top: 80px;
