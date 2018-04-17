@@ -357,6 +357,7 @@ tbody tr:last-child td {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .center {
     text-align: center;
     
@@ -365,12 +366,18 @@ tbody tr:last-child td {
 	padding-top: 80px;
 	padding-bottom: 80px;
 >>>>>>> 535a8a102cba74906e63e4f97aa396ee99684afa
+=======
+.main {
+	padding-top: 80px;
+	padding-bottom: 80px;
+>>>>>>> 74a4dc134d3f7ca2d3da2acdd49cccfff18926dc
 }
 
 .center a {
     color: black;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 .center p {
     margin-bottom: 0;
@@ -391,6 +398,36 @@ tbody tr:last-child td {
 
 
 
+=======
+.article {
+	padding-top: 80px;
+}
+
+.article:first-of-type {
+	padding-top: 0;
+}
+
+.pageslider {
+	background-color: #14110f;
+	font-size: 1em;
+	float: left;
+	position: relative;
+	position: fixed;
+	list-style-type: none;
+	padding: 20px;
+	margin: 0;
+}
+.pageslider li a{
+	color: #fff;
+}
+.pageslider li a:hover {
+	color: #eeb111;
+}
+
+.imgright {
+	float: right;
+}
+>>>>>>> 74a4dc134d3f7ca2d3da2acdd49cccfff18926dc
 
 
 
