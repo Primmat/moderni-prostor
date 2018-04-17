@@ -370,8 +370,26 @@ tbody tr:last-child td {
 	padding-top: 0;
 }
 
+.pageslider {
+	background-color: #14110f;
+	font-size: 1em;
+	float: left;
+	position: relative;
+	position: fixed;
+	list-style-type: none;
+	padding: 20px;
+	margin: 0;
+}
+.pageslider li a{
+	color: #fff;
+}
+.pageslider li a:hover {
+	color: #eeb111;
+}
 
-
+.imgright {
+	float: right;
+}
 
 
 
