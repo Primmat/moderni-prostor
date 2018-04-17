@@ -63,12 +63,18 @@ h5 {
     padding: 20px;
 }
 
+
 .menu_button a:hover {
     color: #eeb111;
 }
 
+
 .menu_pozadi {
   background-color: #14110f;
+}
+
+.jazyky a {
+	color: #666;
 }
 
 img {
