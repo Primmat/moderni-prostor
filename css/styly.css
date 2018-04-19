@@ -377,3 +377,24 @@ tbody tr:last-child td {
 .odkaz_realizace a:hover {
     color: #eeb111;
 }
+
+.navigace {
+	background-color: #14110f;
+	padding: 10px;
+	border-radius: 2px;
+}
+
+.navigace ul {
+	color: white;
+}
+
+.navigace li {
+	padding-top: 10px;
+}
+
+.navigace li a {
+	color: white;
+}
+.navigace li a:hover {
+	color: #eeb111;
+}
