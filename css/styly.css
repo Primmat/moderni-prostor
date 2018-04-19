@@ -377,3 +377,11 @@ tbody tr:last-child td {
 .odkaz_realizace a:hover {
     color: #eeb111;
 }
+
+.button {
+    background-color: #14110f;
+}
+    
+.button:hover {
+    background-color: #ab9570;
+}
