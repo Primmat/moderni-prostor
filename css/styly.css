@@ -8,7 +8,7 @@ body {
 }
 
 .horni-menu {
-    background-color: #14110f;
+    background-color: #433b35;
     padding-top: 15px;
     padding-bottom: 15px;
 }
@@ -405,4 +405,12 @@ tbody tr:last-child td {
 }
 .navigace li a:hover {
 	color: #eeb111;
+}
+
+.chci_vice  a{
+    color: #3c2f2f;
+}
+
+.chci_vice a:hover {
+    color: #eeb111;
 }
