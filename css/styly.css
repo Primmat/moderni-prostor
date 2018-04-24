@@ -35,8 +35,8 @@ body {
     color: #eeb111;
 }
 
-.jazyky a {
-    color: #666;
+.vlajka {
+	min-width: 40px;
 }
 
 img {
@@ -405,4 +405,17 @@ tbody tr:last-child td {
 }
 .navigace li a:hover {
 	color: #eeb111;
+}
+
+/* STYLY NA SLUŽBY */
+
+/* STYLY NA NOVINKY */
+
+.novinky__clanek {
+	padding-top: 40px;
+}
+
+.novinky__clanek__text {
+	margin-bottom: 0;
+	padding-top: 0;
 }
